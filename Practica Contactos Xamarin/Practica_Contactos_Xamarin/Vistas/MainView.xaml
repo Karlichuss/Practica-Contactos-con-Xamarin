@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica_Contactos_Xamarin.Vistas.MainView">
+    <ContentPage.Content>
+        <StackLayout  Orientation="Vertical" Padding="10, 10">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Label
+                    x:Name="lblModoXML"
+                    Text="Cargar XML"
+                    VerticalOptions="Center"/>
+                <Switch x:Name="swtXML"/>
+            </StackLayout>
+            <Button
+                x:Name="btnSeleccionarArchivo"
+                Text="Cargar datos"
+                HorizontalOptions="Center"/>
+            <Label
+                x:Name="lblPath"
+                HorizontalOptions="CenterAndExpand"/>
+            <Label
+                Text="Filtro de busqueda:"/>
+            <Entry
+                x:Name="txtBusqueda"
+                Keyboard="Text"
+                HorizontalOptions="FillAndExpand"/>
+            <Label
+                Text="Edad Minima:"/>
+            <Entry
+                x:Name="txtMinEdad"
+                Keyboard="Numeric"
+                HorizontalOptions="FillAndExpand"/>
+            <Label
+                Text="Edad Maxima:"/>
+            <Entry
+                x:Name="txtMaxEdad"
+                Keyboard="Numeric"
+                HorizontalOptions="FillAndExpand"/>
+            <Button
+                x:Name="btnRealizarBusqueda"
+                Text="Realizar busqueda"
+                HorizontalOptions="Center"
+                IsEnabled="False"/>
+            <ListView
+                x:Name="lstContactos"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="StartAndExpand">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Nombre}" HorizontalOptions="StartAndExpand"/>
+                                <Label Text="{Binding Edad}" HorizontalOptions="Center"/>
+                                <Label Text="{Binding Dni}" HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
