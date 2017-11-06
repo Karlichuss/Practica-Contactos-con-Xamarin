@@ -46,6 +46,7 @@ namespace Practica_Contactos_Xamarin.Vistas
                 }
 
                 /// Una vez cargado los datos al array contactos, lo vinculamos al listview
+                lstContactos.ItemsSource = null;
                 lstContactos.ItemsSource = contactos;
 
                 /// Y habilitamos el boton de busqueda
@@ -78,6 +79,8 @@ namespace Practica_Contactos_Xamarin.Vistas
                 {
                     nuevaVentana = new DetallesView(contactos[index]);
                 }
+
+                lstContactos.SelectedItem = null;
 
                 /// Y mostramos la nueva ventana pasando al constructor el contacto seleccionado
                 Navigation.PushModalAsync(nuevaVentana);

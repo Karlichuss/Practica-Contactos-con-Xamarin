@@ -48,11 +48,16 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout Orientation="Horizontal">
-                                <Label Text="{Binding Nombre}" HorizontalOptions="StartAndExpand"/>
-                                <Label Text="{Binding Edad}" HorizontalOptions="Center"/>
-                                <Label Text="{Binding Dni}" HorizontalOptions="EndAndExpand"/>
-                            </StackLayout>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Column="0" Text="{Binding Nombre}" HorizontalOptions="Start"/>
+                                <Label Grid.Column="1" Text="{Binding Edad}" HorizontalOptions="Center"/>
+                                <Label Grid.Column="2" Text="{Binding Dni}" HorizontalOptions="End"/>
+                            </Grid>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
