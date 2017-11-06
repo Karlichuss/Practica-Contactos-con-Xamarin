@@ -5,7 +5,6 @@ using System.IO;
 using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
-using System.Xml.Serialization;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 

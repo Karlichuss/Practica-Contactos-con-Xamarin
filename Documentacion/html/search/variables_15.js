@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['view',['View',['../class_practica___contactos___xamarin_1_1_droid_1_1_resource_1_1_styleable.html#a96460bca4b5ed6213a8aec4d78d84f73',1,'Practica_Contactos_Xamarin::Droid::Resource::Styleable']]],
+  ['view_5fandroid_5ffocusable',['View_android_focusable',['../class_practica___contactos___xamarin_1_1_droid_1_1_resource_1_1_styleable.html#af6e5580ffef440aff9630c69c068b379',1,'Practica_Contactos_Xamarin::Droid::Resource::Styleable']]],
+  ['view_5fandroid_5ftheme',['View_android_theme',['../class_practica___contactos___xamarin_1_1_droid_1_1_resource_1_1_styleable.html#a15ccf74ccaf1608c3b7467be87ebed61',1,'Practica_Contactos_Xamarin::Droid::Resource::Styleable']]],
+  ['view_5foffset_5fhelper',['view_offset_helper',['../class_practica___contactos___xamarin_1_1_droid_1_1_resource_1_1_id.html#ab103d45eafecd1c7446f74d1aba8f319',1,'Practica_Contactos_Xamarin::Droid::Resource::Id']]],
+  ['view_5fpaddingend',['View_paddingEnd',['../class_practica___contactos___xamarin_1_1_droid_1_1_resource_1_1_styleable.html#a5b2837d37927c126fb483c6b30613e43',1,'Practica_Contactos_Xamarin::Droid::Resource::Styleable']]],
+  ['view_5fpaddingstart',['View_paddingStart',['../class_practica___contactos___xamarin_1_1_droid_1_1_resource_1_1_styleable.html#a9b665ac4fb59f67c45a9b8bdf1b17099',1,'Practica_Contactos_Xamarin::Droid::Resource::Styleable']]],
+  ['view_5ftheme',['View_theme',['../class_practica___contactos___xamarin_1_1_droid_1_1_resource_1_1_styleable.html#a592fdbecea236f6cbc9547e5ebec1778',1,'Practica_Contactos_Xamarin::Droid::Resource::Styleable']]],
+  ['viewbackgroundhelper',['ViewBackgroundHelper',['../class_practica___contactos___xamarin_1_1_droid_1_1_resource_1_1_styleable.html#a3d15bf09daf7d3e6481897295054066f',1,'Practica_Contactos_Xamarin::Droid::Resource::Styleable']]],
+  ['viewbackgroundhelper_5fandroid_5fbackground',['ViewBackgroundHelper_android_background',['../class_practica___contactos___xamarin_1_1_droid_1_1_resource_1_1_styleable.html#ab2cc0823097a06a052e6653f77fb6094',1,'Practica_Contactos_Xamarin::Droid::Resource::Styleable']]],
+  ['viewbackgroundhelper_5fbackgroundtint',['ViewBackgroundHelper_backgroundTint',['../class_practica___contactos___xamarin_1_1_droid_1_1_resource_1_1_styleable.html#a09c0ed8538c89afdd5827b1c7f0c13b9',1,'Practica_Contactos_Xamarin::Droid::Resource::Styleable']]],
+  ['viewbackgroundhelper_5fbackgroundtintmode',['ViewBackgroundHelper_backgroundTintMode',['../class_practica___contactos___xamarin_1_1_droid_1_1_resource_1_1_styleable.html#a9846938ce1689845654237f8bbddd638',1,'Practica_Contactos_Xamarin::Droid::Resource::Styleable']]],
+  ['viewstubcompat',['ViewStubCompat',['../class_practica___contactos___xamarin_1_1_droid_1_1_resource_1_1_styleable.html#a2b34e6f812a72f69e746630538bc9c26',1,'Practica_Contactos_Xamarin::Droid::Resource::Styleable']]],
+  ['viewstubcompat_5fandroid_5fid',['ViewStubCompat_android_id',['../class_practica___contactos___xamarin_1_1_droid_1_1_resource_1_1_styleable.html#ae3c81902e1df225bfb4ae628375bb752',1,'Practica_Contactos_Xamarin::Droid::Resource::Styleable']]],
+  ['viewstubcompat_5fandroid_5finflatedid',['ViewStubCompat_android_inflatedId',['../class_practica___contactos___xamarin_1_1_droid_1_1_resource_1_1_styleable.html#af8ece83bf6e2ec8567018f92c348a3e8',1,'Practica_Contactos_Xamarin::Droid::Resource::Styleable']]],
+  ['viewstubcompat_5fandroid_5flayout',['ViewStubCompat_android_layout',['../class_practica___contactos___xamarin_1_1_droid_1_1_resource_1_1_styleable.html#a761dcf247a03a2d74dc262e27be88a14',1,'Practica_Contactos_Xamarin::Droid::Resource::Styleable']]],
+  ['voiceicon',['voiceIcon',['../class_practica___contactos___xamarin_1_1_droid_1_1_resource_1_1_attribute.html#ae800619f1d65472668d292c0116968f1',1,'Practica_Contactos_Xamarin::Droid::Resource::Attribute']]],
+  ['volume_5fitem_5fcontainer',['volume_item_container',['../class_practica___contactos___xamarin_1_1_droid_1_1_resource_1_1_id.html#a7d3e676b1ced4139ca2d2e2de522e0e2',1,'Practica_Contactos_Xamarin::Droid::Resource::Id']]]
+];
