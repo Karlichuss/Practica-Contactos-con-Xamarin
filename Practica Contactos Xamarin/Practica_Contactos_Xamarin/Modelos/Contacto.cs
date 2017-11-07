@@ -2,10 +2,14 @@
 {
     public class Contacto
     {
-        /*DECLARACION DE VARIABLES*/
+        #region Atributos
+
         private string NOMBRE, EDAD, DNI;
 
-        /*CONSTRUCTORES*/
+        #endregion Atributos
+
+        #region Constructores
+
         public Contacto(string NOMBRE, string EDAD, string DNI)
         {
             this.NOMBRE = NOMBRE;
@@ -18,7 +22,10 @@
 
         }
 
-        /*GETTERS Y SETTERS*/
+        #endregion Constructores
+
+        #region Getters y setters
+
         public string Nombre
         {
             get
@@ -42,6 +49,8 @@
                 return DNI;
             }
         }
+
+        #endregion Getters y setters
 
     }
 }

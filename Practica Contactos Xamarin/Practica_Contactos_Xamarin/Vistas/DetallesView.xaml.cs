@@ -9,7 +9,8 @@ namespace Practica_Contactos_Xamarin.Vistas
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class DetallesView : ContentPage
     {
-        /*CONSTRUCTOR*/
+        #region Constructor
+
         public DetallesView(Contacto contacto)
         {
             InitializeComponent();
@@ -23,5 +24,7 @@ namespace Practica_Contactos_Xamarin.Vistas
                 OnBackButtonPressed();
             };
         }
+
+        #endregion Contructor
     }
 }

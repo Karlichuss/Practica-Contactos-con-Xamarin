@@ -13,11 +13,15 @@ namespace Practica_Contactos_Xamarin.Vistas
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainView : ContentPage
     {
+        #region Variables
 
         List<Contacto> contactos = new List<Contacto>(); // Lista de contactos que obtendremos del fichero que el usuario debe indicar
         List<Contacto> contactosMostrar = new List<Contacto>(); // Lista de contactos que obtendremos de la busqueda
         MatchCollection matches; // Necesario para analizar cadenas con matches y expresiones regulares.
 
+        #endregion Variables
+
+        #region Constructor
 
         public MainView()
         {
@@ -27,6 +31,8 @@ namespace Practica_Contactos_Xamarin.Vistas
             txtBusqueda.Text = "";
             txtMaxEdad.Text = "";
             txtMinEdad.Text = "";
+
+            #region Eventos
 
             /// Accion al pulsar en el btnSeleccionarArchivo
             btnSeleccionarArchivo.Clicked += (sender, args) =>
@@ -85,7 +91,13 @@ namespace Practica_Contactos_Xamarin.Vistas
                 Navigation.PushModalAsync(nuevaVentana);
             };
 
+            #endregion Eventos
+
         }
+
+        #endregion Contructor
+
+        #region Metodos IO
 
         /// <summary>
         /// Metodo que lee el archivo XML y va construyendo los contactos y los agrega al array contactos
@@ -142,6 +154,9 @@ namespace Practica_Contactos_Xamarin.Vistas
             }
         }
 
+        #endregion Metodos IO
+
+        #region Metodos busqueda
 
         /// <summary>
         /// Busca en el array contactos con los valores indicados, sino se indica un error.
@@ -393,5 +408,8 @@ namespace Practica_Contactos_Xamarin.Vistas
 
             return ok;
         }
+
+        #endregion Metodos busqueda
+
     }
 }

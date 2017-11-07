@@ -10,11 +10,11 @@
                     Text="Cargar XML"
                     VerticalOptions="Center"/>
                 <Switch x:Name="swtXML"/>
-            </StackLayout>
-            <Button
+                <Button
                 x:Name="btnSeleccionarArchivo"
                 Text="Cargar datos"
                 HorizontalOptions="Center"/>
+            </StackLayout>
             <Label
                 x:Name="lblPath"
                 HorizontalOptions="CenterAndExpand"/>
@@ -24,18 +24,26 @@
                 x:Name="txtBusqueda"
                 Keyboard="Text"
                 HorizontalOptions="FillAndExpand"/>
-            <Label
-                Text="Edad Minima:"/>
-            <Entry
-                x:Name="txtMinEdad"
-                Keyboard="Numeric"
-                HorizontalOptions="FillAndExpand"/>
-            <Label
-                Text="Edad Maxima:"/>
-            <Entry
-                x:Name="txtMaxEdad"
-                Keyboard="Numeric"
-                HorizontalOptions="FillAndExpand"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                    <Label
+                        Text="Edad Minima:"
+                        HorizontalOptions="StartAndExpand"/>
+                    <Entry
+                        x:Name="txtMinEdad"
+                        Keyboard="Numeric"
+                        HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                    <Label
+                        Text="Edad Maxima:"
+                        HorizontalOptions="StartAndExpand"/>
+                    <Entry
+                        x:Name="txtMaxEdad"
+                        Keyboard="Numeric"
+                        HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+            </StackLayout>
             <Button
                 x:Name="btnRealizarBusqueda"
                 Text="Realizar busqueda"
